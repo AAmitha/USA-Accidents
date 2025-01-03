@@ -1,32 +1,54 @@
-Welcome to My GitHub Profile! 👋
-I’m Amitha, a passionate Data Analytics Specialist with expertise in Data Science, Machine Learning, AI, Large Language Models (LLMs), Exploratory Data Analysis (EDA), and Data Visualization. My goal is to transform raw data into actionable insights that drive impactful decisions.
+USA Accidents Analysis - Exploratory Data Analysis (EDA)
 
-🌟 What You'll Find Here:
-End-to-End Data Analytics Projects: Comprehensive projects demonstrating data cleaning, visualization, and actionable insights.
-Machine Learning Models: Custom ML models for predictive analysis and optimization tasks.
-EDA Explorations: In-depth analyses uncovering patterns and trends from real-world datasets.
-AI & Generative AI Workflows: Innovative AI solutions and use cases.
-Visualization Dashboards: Interactive dashboards and visualizations using Power BI, Python (Matplotlib, Seaborn), and Folium.
+Overview:
+This project focuses on Exploratory Data Analysis (EDA) of the US Accidents dataset. The dataset contains information on traffic accidents occurring across the United States, providing valuable insights into accident patterns, trends, and geographical distributions.
 
-🚀 Featured Projects:
-US Accidents EDA: A detailed exploratory analysis of the US Accidents dataset with insights to improve road safety and decision-making.
-Sales Data Exploration with SQL: Data-driven insights derived from SQL queries to optimize sales strategies.
-AI-Powered NLP Models: Leveraging AI techniques to enhance language understanding and processing.
-Interactive Dashboards: Real-time visualizations for better data-driven decisions.
+Project Goals:
+Perform data preparation, cleaning, and exploration.
+Analyze accident trends by time, location, and other key factors.
+Identify patterns that can help policymakers, urban planners, and traffic authorities improve road safety.
 
-💡 My Skills Include:
-Programming Languages: Python, SQL
-Libraries / Frameworks: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn
-Data Manipulation & Analysis: Data Wrangling, Data Cleaning, Feature Engineering, Data Preprocessing, Statistical Analysis, Regression Analysis, Data Modeling, ETL
-Machine Learning & Deep Learning: Supervised Learning, Unsupervised Learning, Predictive Modeling, Clustering, Classification, Feature Selection
-Data Visualization & Business Intelligence: Power BI (Dashboard Development, Reporting), Tableau, Advanced Excel (Pivot Tables, VLOOKUPs, Conditional Formatting)
-Databases: MySQL, PostgreSQL, MongoDB 
-Cloud Platforms & Operating Systems: AWS (S3, EC2, RDS), GCP, Linux, Windows
-Tools & Software Methodologies: Jupyter Notebook, GitHub, Jira, Agile Methodologies
+Dataset: https://drive.google.com/file/d/1XrQHy5Jb4z4bQAQt3Ay_tRHwvYIE9f1Q/view?usp=sharing
+The dataset used for this analysis is sourced from US Accidents Database. It includes columns like:
 
-🌍 Let’s Collaborate!
-I’m open to collaborating on data analytics, AI, ML, and visualization projects that solve meaningful problems.
+Start_Time: Date and time when the accident occurred.
+End_Time: Date and time when the accident ended.
+Start_Lat and Start_Lng: Geographical coordinates for the accident location.
+City, State, County: Information about the accident's location.
+Source: Reporting source of the data.
+Severity: The severity of the accident.
+Additional columns with detailed information on weather, traffic, and road conditions.
+Methodology
+Data Preparation & Cleaning:
 
-📩 Connect With Me: (https://www.linkedin.com/in/amitha-akepati/)
+Cleaned and handled missing values.
+Converted Start_Time to datetime format for better analysis.
+Filtered and processed numerical and categorical data.
+Exploratory Data Analysis (EDA):
 
-Let’s make data-driven decisions a reality!
+Analyzed accident patterns by location, time, and day of the week.
+Used visualizations such as histograms, scatter plots, and heatmaps to identify accident-prone areas.
+Investigated temporal patterns in accident frequency.
+Key Insights:
+
+Most accidents occur during rush hours (6–10 AM and 3–6 PM).
+Weekend accidents peak between 10 AM and 3 PM.
+A significant number of cities report only one accident, raising data quality concerns.
+Potential inconsistencies found in the Source1 data suggest further investigation.
+Tools & Libraries Used
+Python: Pandas, NumPy, Seaborn, Matplotlib for data manipulation and visualization.
+Folium: Used for creating interactive heatmaps to visualize accident density.
+Git/GitHub: To manage and version control the project.
+Repository Structure
+USAccidents.csv: The cleaned dataset used for analysis.
+US_Accidents_EDA.ipynb: Jupyter Notebook containing all the analysis and visualizations.
+README.md: This file, providing a project overview and instructions.
+Contributions
+Feel free to fork this repository, explore, and contribute if you'd like to expand on the analysis or improve any part of the project.
+
+Questions & Contact
+For any questions or collaborations, please feel free to reach out:
+
+Email: amitha.akepati00@gmail.com
+LinkedIn: https://www.linkedin.com/in/amitha-akepati/
+Thank you for exploring the US Accidents dataset!
